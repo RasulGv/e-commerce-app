@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar';
+import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer';
 import MainContent from '../MainContent/MainContent';
 
 const Layout = ({ children }) => {
   return (
     <div className="w-full">
-      <Navbar />
+      <Navbar/>
       <MainContent>{children}</MainContent>
       <Footer />
     </div>
